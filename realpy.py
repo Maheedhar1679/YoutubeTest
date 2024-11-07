@@ -6,7 +6,7 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-driver = webdriver.Edge()
+driver = webdriver.Chrome()
 driver.get("https://realpython.com/")
 driver.maximize_window()
 driver.find_element("xpath","//a[@class='nav-link rounded mx-0 px-lg-2']").click()
